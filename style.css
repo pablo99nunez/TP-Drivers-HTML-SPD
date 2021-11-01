@@ -87,6 +87,10 @@ h1{
     width: 40vh;
 }
 
+#driver{
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 @keyframes fade-out{
     0%{
