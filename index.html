@@ -97,6 +97,60 @@
         </div>
     </div>
     <!-- ------------------------------------------------------------------------------------------------------ -->
+    <section id="driver">
+        <div class="section flex-col">
+            <h2>Driver</h2>
+            <div class="section flex-col">
+                <h3>¿Que son los driver de una impresora?</h3>
+                    <p>
+                        El driver trabaja como un traductor entre el dispositivo y los programas que lo utilizan. Cada
+                         impresora tiene su propio sistema de comandos especializados que solo es conocido por su driver.
+                         La mayoría de los programas acceden a la impresora usando comandos genéricos, sin embargo el 
+                         driver acepta los comandos genéricos y los traduce para comandos especializados que la impresora
+                         puede entender. <br>
+                         Los controladores de impresión también son recursos de código independientes, sin embargo, en
+                         general, son mucho más complicados que la extensión promedio o el panel de control.
+                    </p>
+                    <div class="section flex-col">
+                        <h4>Accesos y protocolos del driver de impresora.</h4>
+                        <ul>
+                            <li>Un controlador de impresión debe permitir que el Administrador de impresión tome los datos de 
+                                la aplicación y los traduzca a algo que la impresora pueda usar.
+                            </li>
+                            <li>
+                                El controlador de impresión  debe proporcionar cuadros de diálogo para imprimir, configurar la 
+                                página y cualquier otro cuadro de diálogo relacionado que desee admitir.
+                            </li>
+                            <li>
+                                También debe responder a las llamadas del Selector preguntando qué tipo de impresora admite y 
+                                qué es (máquina láser, inyección de tinta, matriz de puntos, etc.). 
+                            </li>
+                            <li>
+                                Si el controlador de impresión se traduce a postscript (los escritores láser hacen esto), 
+                                entonces también debe implementar el Protocolo de acceso a la impresora (PAP).
+                            </li>
+                            <li>
+                                En el siguiente diagrama de bloques se puede ver como se relaciona el driver de la impresora con el 
+                                sistema operativo, el programa de impresion y la impresora al momento de imprimir.
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+                <div class="cont-img">
+                    <img src="./assets/pictures/diagrama-De_Bloques.png" alt="Diagrama de bloques">
+                </div>
+                <div class="section flex-col">
+                    <h3>¿Por que actualizar el driver de la impresora?</h3>
+                    <p>
+                        Como los programas son actualizados frecuentemente, es necesario descargar los drivers más
+                         recientes para mantener el equipo actualizado. Las actualizaciones son lanzadas, muchas
+                         veces, para mejorar el rendimiento de la impresora o añadir nuevos recursos. Otra ventaja
+                         de la actualización de drivers es que acostumbran corregir errores y fallos en el uso del
+                         dispositivo.
+                    </p>
+                </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 
