@@ -88,6 +88,7 @@ h1{
 }
 
 #driver{
+    background-color: var(--color-light);
     flex-direction: column;
     justify-content: space-between;
 }
