@@ -17,15 +17,13 @@
                     <a href="#queEs">
                         <h2>¿Que es una impresora?</h2>
                     </a>
-                    <a href="#">
-                        <h2>Funciones</h2>
+                    <a href="#comoFunciona">
+                        <h2>¿Como funciona?</h2>
                     </a>
 
                     <a href="#tipos">
                         <h2>Tipos de impresoras</h2>
                     </a>
-
-                   
                     <a href="#driver">
                         <h2>Driver</h2>
                     </a>
@@ -52,6 +50,35 @@
             </div>
         </div>
     </section>
+<section id="comoFunciona">
+    <div class="section flex-col">
+        <h1>¿Como funciona?</h1>
+        <p class="parrafo">
+            La CPU envía comandos a los drivers de la
+            impresora, cada comando de escritura de la CPU ingresa una línea en el buffer de
+            impresión. Una vez se transfieren los datos, la operación de impresión se ejecuta
+            independientemente de la CPU.
+            Un circuito tecnológico determina qué significan todos esos datos almacenados en el buffer
+            y cómo deben enviarse en la página impresa, este mismo envía los datos de impresión a un
+            tambor fotoconductor, produciendo en este un patrón electrostático con los caracteres ó
+            líneas que se desean imprimir.
+            El tambor, gracias a la electricidad estática, atrae el tóner de
+            su cartucho.
+            Después, el tambor hace rodar el tóner sobre el papel en la forma de su impresión. El rayo
+            láser en realidad no se mueve: rebota en un espejo en movimiento que lo escanea sobre el
+            tambor. Donde el rayo láser golpea el tambor, borra la carga positiva que estaba allí y crea
+            un área de carga negativa. De este modo, marca en qué partes la página debe ser blanca o
+            llevar negro o color.
+            El papel con tinta pasa a través de dos rodillos calientes (la unidad de fusión). El calor y la
+            presión de los rodillos fusionan las partículas de tóner de forma permanente en las fibras del
+            papel.
+            Por último, la impresión está finalizada y sale el documento final de la impresora.
+        </p>
+
+
+    </div>
+</section>
+
     <!-- -----------------------------------Teoria de Tipos de Impresoras------------------------------------------------------------------ -->
     <section class="tipos flex-col" id="tipos">
         <h1>Tipos de impresoras</h1>
@@ -59,15 +86,15 @@
 
             <div class="card" id="monocromáticas">
                 <img src="./assets/pictures/monocromatica.jpg" alt="Impresora monocromatica">
-                <h2 >Láser monocromáticas</h2>
-                
+                <h2>Láser monocromáticas</h2>
+
             </div>
             <div class="card-info disable" id="mono-info">
                 <div class="cont-info flex">
                     <img src="./assets/pictures/monocromatica.jpg" alt="Impresora monocromatica">
                     <div class="text-info">
 
-                        <h2 >Láser monocromáticas</h2>
+                        <h2>Láser monocromáticas</h2>
                         <p class="">
                             Una impresora monocromática es una impresora que imprime solo en blanco y negro. Las
                             impresoras monocromáticas solo necesitan un cartucho de impresora negro para imprimir.
@@ -79,80 +106,76 @@
                     <h1 class="close">X</h1>
                 </div>
             </div>
-            
-        
-        <div class="card">
-            <img src="./assets/pictures/laser a color.png" alt="Impresora a color">
-            <h2 id="acolor">Láser a color</h2>
-            
-        </div>
-        <div class="card-info disable" id="mono-info">
-            <div class="cont-info flex">
+            <div class="card">
                 <img src="./assets/pictures/laser a color.png" alt="Impresora a color">
-                <div class="text-info">
+                <h2 id="acolor">Láser a color</h2>
 
-                    <h2 >Láser a color</h2>
-                    <p class="">
-                        Este tipo de impresoras son muy populares por imprimir muy rápido y a una excelente
-                        calidad. Se caracterizan por poder imprimir en color, disponen de un tóner de cada color y
-                        además, pueden imprimir documentos en monocromo. Muy útiles para las empresas o
-                        negocios que necesitan imprimir tanto documentos a color, como en blanco y negro.
-                    </p>
-                </div>
-                <h1 class="close">X</h1>
             </div>
-        </div>
-            
-            
+            <div class="card-info disable" id="mono-info">
+                <div class="cont-info flex">
+                    <img src="./assets/pictures/laser a color.png" alt="Impresora a color">
+                    <div class="text-info">
 
-        <div class="card">
-            <img src="./assets/pictures/multifuncón.jpg" alt="Impresora multifuncion">
-            <h2 id="multifuncion">Láser multifunción</h2>
-            
-        </div>
-        <div class="card-info disable" id="mono-info">
-            <div class="cont-info flex">
+                        <h2>Láser a color</h2>
+                        <p class="">
+                            Este tipo de impresoras son muy populares por imprimir muy rápido y a una excelente
+                            calidad. Se caracterizan por poder imprimir en color, disponen de un tóner de cada color y
+                            además, pueden imprimir documentos en monocromo. Muy útiles para las empresas o
+                            negocios que necesitan imprimir tanto documentos a color, como en blanco y negro.
+                        </p>
+                        </div>
+                        <h1 class="close">X</h1>
+                        </div>
+                        </div>
+
+            <div class="card">
                 <img src="./assets/pictures/multifuncón.jpg" alt="Impresora multifuncion">
-                <div class="text-info">
+                <h2 id="multifuncion">Láser multifunción</h2>
 
-                    <h2 >Láser multifunción</h2>
-                    <p class="">
-                        Estos equipos multifunción son una de las impresoras profesionales más utilizadas y
-                        demandadas por los negocios, tanto PYMES como grandes empresas. Esto es gracias a su
-                        amplio abanico de funciones, permite imprimir, tanto a color como en monocromo, escanear,
-                        digitalizar documentos e incluso fotocopiar.
-                    </p>
-                </div>
-                <h1 class="close">X</h1>
             </div>
-        </div>
-            
-        
-        
-        <div class="card">
-            <img src="./assets/pictures/impresora 3d.jpg" alt="Impresora 3D">
-            <h2 id="3d">Impresoras 3D</h2>
-           
-        </div>
-        <div class="card-info disable" id="mono-info">
-            <div class="cont-info flex">
-                <img src="./assets/pictures/impresora 3d.jpg" alt="Impresora 3D">
-                <div class="text-info">
+            <div class="card-info disable" id="mono-info">
+                <div class="cont-info flex">
+                    <img src="./assets/pictures/multifuncón.jpg" alt="Impresora multifuncion">
+                    <div class="text-info">
 
-                    <h2 >Impresoras 3D</h2>
-                    <p class="">
-                        Los equipos 3D han revolucionado el concepto de impresión, ya que permiten imprimir todo
-                        tipo de objetos a partir de un diseño. Las aplicaciones son múltiples: desde el campo de la
-                        medicina, con la construcción de prótesis y otros elementos similares, a los sectores
-                        industriales que requieren piezas específicas para su funcionamiento.
-                    </p>
-                </div>
-                <h1 class="close">X</h1>
-            </div>
-        </div>
-        
-        
-    </div>
+                        <h2>Láser multifunción</h2>
+                        <p class="">
+                            Estos equipos multifunción son una de las impresoras profesionales más utilizadas y
+                            demandadas por los negocios, tanto PYMES como grandes empresas. Esto es gracias a su
+                            amplio abanico de funciones, permite imprimir, tanto a color como en monocromo, escanear,
+                            digitalizar documentos e incluso fotocopiar.
+                        </p>
+                        </div>
+                        <h1 class="close">X</h1>
+                        </div>
+                        </div>
+
+
+
+                        <div class="card">
+                            <img src="./assets/pictures/impresora 3d.jpg" alt="Impresora 3D">
+                            <h2 id="3d">Impresoras 3D</h2>
+
+                        </div>
+                        <div class="card-info disable" id="mono-info">
+                            <div class="cont-info flex">
+                                <img src="./assets/pictures/impresora 3d.jpg" alt="Impresora 3D">
+                                <div class="text-info">
+
+                        <h2>Impresoras 3D</h2>
+                        <p class="">
+                            Los equipos 3D han revolucionado el concepto de impresión, ya que permiten imprimir todo
+                            tipo de objetos a partir de un diseño. Las aplicaciones son múltiples: desde el campo de la
+                            medicina, con la construcción de prótesis y otros elementos similares, a los sectores
+                            industriales que requieren piezas específicas para su funcionamiento.
+                        </p>
+                        </div>
+                        <h1 class="close">X</h1>
+                        </div>
+                        </div>
+
+
+                        </div>
     </section>
     <!-- ------------------------------------------------------------------------------------------------------ -->
     <section id="driver">
@@ -160,54 +183,59 @@
             <h2>Driver</h2>
             <div class="section flex-col">
                 <h3>¿Que son los driver de una impresora?</h3>
-                    <p>
-                        El driver trabaja como un traductor entre el dispositivo y los programas que lo utilizan. Cada
-                         impresora tiene su propio sistema de comandos especializados que solo es conocido por su driver.
-                         La mayoría de los programas acceden a la impresora usando comandos genéricos, sin embargo el 
-                         driver acepta los comandos genéricos y los traduce para comandos especializados que la impresora
-                         puede entender. <br>
-                         Los controladores de impresión también son recursos de código independientes, sin embargo, en
-                         general, son mucho más complicados que la extensión promedio o el panel de control.
-                    </p>
-                    <div class="section flex-col">
-                        <h3>Accesos y protocolos del driver de impresora.</h3>
-                        <ul>
-                            <li>Un controlador de impresión debe permitir que el Administrador de impresión tome los datos de 
-                                la aplicación y los traduzca a algo que la impresora pueda usar.
-                            </li>
-                            <li>
-                                El controlador de impresión  debe proporcionar cuadros de diálogo para imprimir, configurar la 
-                                página y cualquier otro cuadro de diálogo relacionado que desee admitir.
-                            </li>
-                            <li>
-                                También debe responder a las llamadas del Selector preguntando qué tipo de impresora admite y 
-                                qué es (máquina láser, inyección de tinta, matriz de puntos, etc.). 
-                            </li>
-                            <li>
-                                Si el controlador de impresión se traduce a postscript (los escritores láser hacen esto), 
-                                entonces también debe implementar el Protocolo de acceso a la impresora (PAP).
-                            </li>
-                            <li>
-                                En el siguiente diagrama de bloques se puede ver como se relaciona el driver de la impresora con el 
-                                sistema operativo, el programa de impresion y la impresora al momento de imprimir.
-                            </li>
-                        </ul>
-                    </div>
-            </div>
-                <div class="cont-img">
-                    <img src="./assets/pictures/diagrama-De_Bloques.png" alt="Diagrama de bloques">
-                </div>
+                <p>
+                    El driver trabaja como un traductor entre el dispositivo y los programas que lo utilizan. Cada
+                    impresora tiene su propio sistema de comandos especializados que solo es conocido por su driver.
+                    La mayoría de los programas acceden a la impresora usando comandos genéricos, sin embargo el
+                    driver acepta los comandos genéricos y los traduce para comandos especializados que la impresora
+                    puede entender. <br>
+                    Los controladores de impresión también son recursos de código independientes, sin embargo, en
+                    general, son mucho más complicados que la extensión promedio o el panel de control.
+                </p>
                 <div class="section flex-col">
-                    <h3>¿Por que actualizar el driver de la impresora?</h3>
-                    <p>
-                        Como los programas son actualizados frecuentemente, es necesario descargar los 
-                         drivers más recientes para mantener el equipo actualizado. <br> 
-                        Las actualizaciones son lanzadas, muchas veces, para mejorar el rendimiento de la 
-                         impresora o añadir nuevos recursos. <br>
-                        Otra ventaja de la actualización de drivers es que acostumbran corregir errores y 
-                         fallos en el uso del dispositivo.
-                    </p>
-                </div>
+                    <h3>Accesos y protocolos del driver de impresora.</h3>
+                    <ul>
+                        <li>Un controlador de impresión debe permitir que el Administrador de impresión tome los datos
+                            de
+                            la aplicación y los traduzca a algo que la impresora pueda usar.
+                        </li>
+                        <li>
+                            El controlador de impresión debe proporcionar cuadros de diálogo para imprimir, configurar
+                            la
+                            página y cualquier otro cuadro de diálogo relacionado que desee admitir.
+                            </li>
+                            <li>
+                            También debe responder a las llamadas del Selector preguntando qué tipo de impresora admite
+                            y
+                            qué es (máquina láser, inyección de tinta, matriz de puntos, etc.).
+                            </li>
+                            <li>
+                            Si el controlador de impresión se traduce a postscript (los escritores láser hacen
+                            esto),
+                            entonces también debe implementar el Protocolo de acceso a la impresora (PAP).
+                            </li>
+                            <li>
+                            En el siguiente diagrama de bloques se puede ver como se relaciona el driver de la impresora
+                            con el
+                            sistema operativo, el programa de impresion y la impresora al momento de imprimir.
+                            </li>
+                            </ul>
+                            </div>
+            </div>
+            <div class="cont-img">
+                <img src="./assets/pictures/diagrama-De_Bloques.png" alt="Diagrama de bloques">
+            </div>
+            <div class="section flex-col">
+                <h3>¿Por que actualizar el driver de la impresora?</h3>
+                <p>
+                    Como los programas son actualizados frecuentemente, es necesario descargar los
+                    drivers más recientes para mantener el equipo actualizado. <br>
+                    Las actualizaciones son lanzadas, muchas veces, para mejorar el rendimiento de la
+                    impresora o añadir nuevos recursos. <br>
+                    Otra ventaja de la actualización de drivers es que acostumbran corregir errores y
+                    fallos en el uso del dispositivo.
+                </p>
+            </div>
         </div>
     </section>
     <script src="script.js"></script>

@@ -45,6 +45,9 @@ h2{
 h1{
     font-size:2.5rem;
 }
+.parrafo {
+    margin-top: 1rem;
+}
 .cont-links h2{
     color: var(--color-white);
     font-size:2rem;
