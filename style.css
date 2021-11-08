@@ -47,6 +47,7 @@ h1{
 }
 .parrafo {
     margin-top: 1rem;
+    font-size: 1.5rem;
 }
 .cont-links h2{
     color: var(--color-white);
