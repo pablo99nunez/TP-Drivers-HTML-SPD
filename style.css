@@ -179,5 +179,14 @@ h1{
         opacity:100%;
         transform:translateX(0);
     }
+footer {
+        text-align: center;
+        font-size: 20px;
+        font-family: serif;
+        padding: 6px;
+        background-color: #66FA7D;
+        color: black;
+      
+    }    
 
 }
